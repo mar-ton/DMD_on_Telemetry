@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+dmd_thesis.egg-info/
+sim_data/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store

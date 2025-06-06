@@ -1,0 +1,103 @@
+data set 1, max angle=24.06, avg angle=22.07, min angle=19.97, battery never reaches 0
+
+main_yz_20_prec_xy_0.3_add_xy5_-y-z3
+
+        self.main_rotation = AxisAngle(_normalize(np.array([0, 1, 1])), 20)
+        self.precession = AxisAngle(_normalize(np.array([1, 1, 0])), 0.3)
+
+        self.additional_rotations = [
+            AxisAngle(_normalize(np.array([1, 1, 0])), 5),
+            AxisAngle(_normalize(np.array([0, -1, -1])), 3),
+        ]
+
+RMSE over sampling interval (n=16)
+    min rmse: key=1, value=2.27978743437529e-09
+    max rmse: key=278, value=0.1823450609150989
+    sum & mean & median rmse:
+    5.9668 & 0.0214 & 0.0092
+
+RMSE over number of snapshots (f_S=1)
+    min rmse: key=15, value=1.9618569640974216e-09
+    max rmse: key=59, value=0.5758947129638798
+    sum & mean & median rmse:
+    22.3156 & 0.2277 & 0.0325
+
+----------------------------------------------------------------------------
+
+data set 2, max angle=1.91, avg angle=1.89, min angle=1.87, batter frequently at 0, very slow rotation
+
+main_0.5xyz_2_prec_yz_0.5_add_-xyz0.1_-y-z0.2
+
+        self.main_rotation = AxisAngle(_normalize(np.array([0.5, 1, 1])), 2)
+        self.precession = AxisAngle(_normalize(np.array([0, 1, 1])), 0.5)
+
+        self.additional_rotations = [
+            AxisAngle(_normalize(np.array([-1, 1, 1])), 0.1),
+            AxisAngle(_normalize(np.array([0, -1, -1])), 0.2),
+        ]
+
+RMSE over sampling interval (n=16)
+    min rmse: key=2, value=2.7867758063732924e-08
+    max rmse: key=1, value=0.6303042665458988
+    sum & mean & median rmse:
+    4.7022 & 0.0169 & 0.0073
+
+RMSE over number of snapshots (f_S=2)
+    min rmse: key=13, value=2.246191028846058e-08
+    max rmse: key=33, value=1.2713954973252428
+    sum & mean & median rmse:
+    15.9566 & 0.1628 & 0.0319
+
+----------------------------------------------------------------------------
+
+data set 3, max angle=179.98, avg angle=171.54, min angle=164.72, battery often reaches 0, very obvious oscillation of all temperatures over long period
+
+main_-0.5y-z_180_prec_-yz_1_add_-xy-z32_0.1x-0.2y0.3z20
+
+        self.main_rotation = AxisAngle(_normalize(np.array([0, -0.5, -1])), 180)
+        self.precession = AxisAngle(_normalize(np.array([0, -1, 1])), 1)
+
+        self.additional_rotations = [
+            AxisAngle(_normalize(np.array([-1, 1, -1])), 32),
+            AxisAngle(_normalize(np.array([0.1, -0.2, 0.3])), 20),
+        ]
+
+RMSE over sampling interval (n=16)
+    min rmse: key=180, value=7.026060744285266e-14
+    max rmse: key=15, value=0.1856036057999602
+    sum & mean & median rmse:
+    8.6565 & 0.0310 & 0.0171
+
+RMSE over number of snapshots (f_S=1)
+    min rmse: key=19, value=2.3003439200507923e-10
+    max rmse: key=25, value=0.5419320909517341
+    sum & mean & median rmse:
+    5.0396 & 0.0514 & 0.0228
+
+----------------------------------------------------------------------------
+
+data set 4, max angle=145.67, avg angle=120.10, min angle=92.75, battery never reaches 0
+
+main_-0.5y-z_50_prec_-yz_10_add_-xy-z120_0.1x-0.2y0.3z20
+
+        self.main_rotation = AxisAngle(_normalize(np.array([0, -0.5, -1])), 50)
+        self.precession = AxisAngle(_normalize(np.array([0, -1, 1])), 10)
+
+        self.additional_rotations = [
+            AxisAngle(_normalize(np.array([-1, 1, -1])), 120),
+            AxisAngle(_normalize(np.array([0.1, -0.2, 0.3])), 20),
+        ]
+
+RMSE over sampling interval (n=16)
+    min rmse: key=270, value=1.1527892718758412e-05
+    max rmse: key=21, value=0.11591400123203895
+    sum & mean & median rmse:
+    2.1896 & 0.0078 & 0.0022
+
+RMSE over number of snapshots (f_S=18)
+    min rmse: key=17, value=7.102349379029882e-15
+    max rmse: key=3, value=0.45668751801395663
+    sum & mean & median rmse:
+    8.8314 & 0.0901 & 0.0920
+
+----------------------------------------------------------------------------

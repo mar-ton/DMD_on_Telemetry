@@ -1,0 +1,431 @@
+data-set-1
+
+f_S=1, n=15, svd=4
+time frame:
+        15 steps
+        0.16 orbits
+rsme=0.006289960956288793
+
+absolute eigenvalues:
+[0.984 1.04  1.005 1.005]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+1 & 15 & 0.0663 & [0.066] & [0.0051] & 15.0758 & [15.153]
+
+---------------
+
+f_S=2, n=15, svd=5
+time frame:
+        30 steps
+        0.32 orbits
+rsme=0.0411814098485926
+
+absolute eigenvalues:
+[0.999 0.999 0.599 1.    1.   ]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+2 & 15 & 0.0664 & [0.0072 0.0659] & [0.891  0.0077] & 15.0575 & [138.1599  15.1736]
+
+---------------
+
+f_S=3, n=21, svd=6
+time frame:
+        63 steps
+        0.68 orbits
+rsme=0.06207141011018989
+
+absolute eigenvalues:
+[0.975 0.958 0.958 1.007 1.007 0.586]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+3 & 21 & 0.0666 & [0.0084 0.0665] & [0.8736 0.0013] & 15.0254 & [118.9169  15.0453]
+
+---------------
+
+f_S=4, n=21, svd=6
+time frame:
+        84 steps
+        0.90 orbits
+rsme=0.06731657927472744
+
+absolute eigenvalues:
+[0.917 1.02  0.885 0.885 1.01  1.01 ]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+4 & 21 & 0.0666 & [0.0118 0.0664] & [0.8225 0.0036] & 15.0109 & [84.5753 15.0649]
+
+---------------
+
+f_S=7, n=21, svd=7
+time frame:
+        147 steps
+        1.58 orbits
+rsme=0.08475235167363061
+
+absolute eigenvalues:
+[0.972 0.972 0.288 0.932 0.932 1.015 1.015]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+7 & 21 & 0.0667 & [0.0009 0.0112 0.0665] & [0.9867 0.8319 0.0027] & 14.9958 & [1124.9053   89.1985   15.0357]
+
+---------------
+
+f_S=8, n=21, svd=8
+time frame:
+        168 steps
+        1.81 orbits
+rsme=0.0984999849516551
+
+absolute eigenvalues:
+[0.96  0.96  0.798 0.922 0.922 0.411 1.017 1.017]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+8 & 21 & 0.0667 & [0.0007 0.0129 0.0625 0.0585] & [0.9896 0.8065 0.0625 0.1219] & 15.0 & [1439.3554   77.5221   16.       17.0815]
+
+---------------
+
+f_S=16, n=21, svd=6
+time frame:
+        336 steps
+        3.61 orbits
+rsme=0.10135300227726621
+
+absolute eigenvalues:
+[0.978 0.978 0.784 0.784 0.98  0.98 ]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+16 & 21 & 0.0658 & [0.0005 0.0119 0.0035] & [0.9929 0.8196 0.9464] & 15.1929 & [2129.6103   84.2237  283.2205]
+
+---------------
+
+f_S=75, n=23, svd=9
+time frame:
+        1725 steps
+        18.55 orbits
+rsme=0.18672437936723654
+
+absolute eigenvalues:
+[0.997 0.855 0.855 0.992 0.992 0.378 0.378 0.578 0.329]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+75 & 23 & 0.0621 & [0.0027 0.0008 0.0029 0.0067 0.0067] & [0.9566 0.9865 0.953  0.8926 0.8926] & 16.1133 & [ 371.5382 1190.7626  342.6072  150.      150.    ]
+
+---------------
+
+__________________________________________________________________________
+
+
+
+data-set-2
+
+f_S=2, n=13, svd=3
+time frame:
+        26 steps
+        0.28 orbits
+rsme=0.010548656824053232
+
+absolute eigenvalues:
+[0.964 0.964 1.099]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+2 & 13 & 0.0053 & [0.0077] & [0.4725] & 190.0235 & [129.0471]
+
+---------------
+
+f_S=3, n=13, svd=4
+time frame:
+        39 steps
+        0.42 orbits
+rsme=0.050322109169920894
+
+absolute eigenvalues:
+[0.861 1.059 1.059 0.047]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+3 & 13 & 0.0053 & [0.0087 0.1667] & [ 0.651  30.6896] & 190.1375 & [115.1659   6.    ]
+
+---------------
+
+f_S=4, n=13, svd=4
+time frame:
+        52 steps
+        0.56 orbits
+rsme=0.038562625333001414
+
+absolute eigenvalues:
+[0.855 1.042 1.042 0.114]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+4 & 13 & 0.0053 & [0.0053] & [0.0058] & 190.2525 & [189.1481]
+
+---------------
+
+f_S=5, n=13, svd=4
+time frame:
+        65 steps
+        0.70 orbits
+rsme=0.03662636597986601
+
+absolute eigenvalues:
+[0.791 0.576 0.972 0.972]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+5 & 13 & 0.0053 & [0.0053] & [0.0131] & 190.3678 & [187.9129]
+
+---------------
+
+f_S=6, n=17, svd=5
+time frame:
+        102 steps
+        1.10 orbits
+rsme=0.04032152563218341
+
+absolute eigenvalues:
+[0.989 0.812 0.812 1.032 1.032]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+6 & 17 & 0.0052 & [0.0126 0.0054] & [1.4061 0.0248] & 190.6914 & [ 79.252  186.0703]
+
+---------------
+
+f_S=11, n=21, svd=7
+time frame:
+        231 steps
+        2.48 orbits
+rsme=0.0953781906200468
+
+absolute eigenvalues:
+[0.98  0.98  0.99  0.99  0.767 0.767 0.27 ]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+11 & 21 & 0.0052 & [0.0004 0.0053 0.0113 0.0455] & [0.9223 0.0228 1.1566 7.7076] & 191.5672 & [2464.159   187.2907   88.8303   22.    ]
+
+---------------
+
+f_S=12, n=21, svd=7
+time frame:
+        252 steps
+        2.71 orbits
+rsme=0.09851986317805872
+
+absolute eigenvalues:
+[1.002 1.002 0.995 0.995 0.895 0.895 0.309]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+12 & 21 & 0.0052 & [0.0006 0.0053 0.0112 0.0417] & [0.8762 0.0188 1.1552 6.9854] & 191.649 & [1547.7922  188.1089   88.9252   24.    ]
+
+---------------
+
+f_S=13, n=21, svd=8
+time frame:
+        273 steps
+        2.94 orbits
+rsme=0.108179230891371
+
+absolute eigenvalues:
+[0.988 0.988 0.299 0.996 0.996 0.798 0.798 0.431]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+13 & 21 & 0.0052 & [0.0006 0.0053 0.0118 0.0385] & [0.8838 0.0075 1.261  6.3735] & 191.7102 & [1649.8195  190.2826   84.7916   26.    ]
+
+---------------
+
+__________________________________________________________________________
+
+
+
+data-set-3
+
+f_S=1, n=19, svd=4
+time frame:
+        19 steps
+        0.20 orbits
+rsme=0.018344131145731968
+
+absolute eigenvalues:
+[0.986 1.009 0.987 0.987]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+1 & 19 & 0.4915 & [0.492] & [0.001] & 2.0346 & [2.0326]
+
+---------------
+
+f_S=2, n=19, svd=4
+time frame:
+        38 steps
+        0.41 orbits
+rsme=0.05910967120438373
+
+absolute eigenvalues:
+[0.874 0.874 1.058 1.058]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+2 & 19 & 0.4939 & [0.003  0.0089] & [0.994  0.9821] & 2.0249 & [336.0328 112.819 ]
+
+---------------
+
+f_S=167, n=22, svd=9
+time frame:
+        3674 steps
+        39.51 orbits
+rsme=0.18098879968943643
+
+absolute eigenvalues:
+[0.996 0.768 0.768 0.971 0.971 0.915 0.915 0.098 0.335]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+167 & 22 & 0.4767 & [0.0013 0.0028 0.0004 0.003 ] & [0.9972 0.9942 0.9991 0.9937] & 2.0978 & [ 749.9076  359.356  2357.8666  334.    ]
+
+---------------
+
+f_S=180, n=16, svd=7
+time frame:
+        2880 steps
+        30.97 orbits
+rsme=0.10601437762780823
+
+absolute eigenvalues:
+[1.    0.709 0.709 0.999 0.106 1.    1.   ]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+180 & 16 & 0.4765 & [0.0003 0.0028 0.0028 0.0013] & [0.9994 0.9942 0.9942 0.9973] & 2.0987 & [3533.3     360.      360.      783.2069]
+
+---------------
+
+__________________________________________________________________________
+
+
+
+data-set-4
+
+
+f_S=1, n=21, svd=6
+time frame:
+        21 steps
+        0.23 orbits
+rmse=0.09842430618622337
+
+f_S=1, n=21
+[ 1.043+0.j     0.942+0.149j  0.942-0.149j -0.433+0.j    -0.23 +0.974j
+ -0.23 -0.974j]
+
+[1.043 0.953 0.953 0.433 1.001 1.001]
+
+
+1 & 21 & 6 & 0.09842 & 0.30159 & 0.02492,\newline0.28683 & 0.91739,\newline0.04895 & 3.32 & 40.14,\newline3.49 \\
+
+---------------
+
+f_S=5, n=22, svd=7
+time frame:
+        110 steps
+        1.18 orbits
+rsme=0.14436953994380403
+
+absolute eigenvalues:
+[0.997 0.526 0.954 0.954 0.31  0.995 0.995]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+5 & 22 & 0.3345 & [0.1    0.0121 0.1    0.0277] & [0.701  0.9638 0.701  0.9171] & 2.9899 & [10.     82.5972 10.     36.078 ]
+
+---------------
+
+f_S=9, n=21, svd=7
+time frame:
+        189 steps
+        2.03 orbits
+rsme=0.18649482173742574
+
+absolute eigenvalues:
+[1.    0.537 0.822 0.822 0.979 0.979 0.029]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+9 & 21 & 0.3339 & [0.0127 0.0279 0.0556] & [0.9618 0.9164 0.8336] & 2.9948 & [78.4339 35.8392 18.    ]
+
+---------------
+
+f_S=12, n=21, svd=8
+time frame:
+        252 steps
+        2.71 orbits
+rsme=0.11299530571492752
+
+absolute eigenvalues:
+[1.003 0.94  0.942 0.942 0.943 0.943 0.993 0.993]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+12 & 21 & 0.3336 & [0.0308 0.0116 0.0277] & [0.9078 0.9652 0.9169] & 2.9974 & [32.5126 86.2168 36.0659]
+
+---------------
+
+f_S=15, n=21, svd=7
+time frame:
+        315 steps
+        3.39 orbits
+rsme=0.21279575184027147
+
+absolute eigenvalues:
+[0.109 1.    0.736 0.736 0.992 0.992 0.633]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+15 & 21 & 0.3318 & [0.0113 0.0278 0.0333] & [0.9659 0.9162 0.8995] & 3.014 & [88.2898 35.9473 30.    ]
+
+---------------
+
+f_S=17, n=21, svd=7
+time frame:
+        357 steps
+        3.84 orbits
+rsme=0.2074419820011131
+
+absolute eigenvalues:
+[0.174 0.174 0.996 0.833 0.833 0.997 0.997]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+17 & 21 & 0.3331 & [0.0068 0.0124 0.0278] & [0.9796 0.9629 0.9167] & 3.0022 & [146.9957  80.835   36.0226]
+
+---------------
+
+f_S=18, n=17, svd=6
+time frame:
+        306 steps
+        3.29 orbits
+rsme=0.18635068994269527
+
+absolute eigenvalues:
+[0.123 1.001 0.76  0.734 0.734 0.991]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+18 & 17 & 0.3318 & [0.0278 0.0278 0.0114 0.0278] & [0.9163 0.9163 0.9657 0.9163] & 3.0137 & [36.     36.     87.7372 36.    ]
+
+---------------
+
+f_S=22, n=17, svd=8
+time frame:
+        374 steps
+        4.02 orbits
+rsme=0.2111932217923451
+
+absolute eigenvalues:
+[0.999 0.534 0.856 0.856 0.4   0.4   0.998 0.998]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+22 & 17 & 0.3329 & [0.0227 0.0114 0.007  0.0176] & [0.9317 0.9657 0.9789 0.9471] & 3.0041 & [ 44.      87.6238 142.139   56.7372]
+
+---------------
+
+f_S=23, n=17, svd=7
+time frame:
+        391 steps
+        4.20 orbits
+rsme=0.175757217931485
+
+absolute eigenvalues:
+[0.104 0.999 0.514 0.837 0.837 1.007 1.007]
+
+f_S, n, true mean f, dominant f, relative error, true mean steps per one cycle, steps per one cycle
+23 & 17 & 0.3328 & [0.0118 0.0157] & [0.9644 0.9527] & 3.005 & [84.4257 63.5339]
+
+---------------
+
+__________________________________________________________________________
