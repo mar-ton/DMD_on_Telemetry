@@ -10,9 +10,9 @@ To use the scripts, set up a `.venv` environment in the root of the repository. 
 - pytest
 - pyqt5 (to show the plots)
 
-`python -m venv .venv`
-`source .venv/bin/activate`
-`pip install -e .`
+* `python -m venv .venv`
+* `source .venv/bin/activate`
+* `pip install -e .`
 
 This README assumes you are running the scripts from within VSCode. If not, then you have to adapt the structure accordingly.
 
