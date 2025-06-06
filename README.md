@@ -2,17 +2,13 @@ This is the repository for my Bachlors Thesis "Time Series Analysis and Predicti
 
 It contains not only the used plots in the thesis but all different plots and raw data. Of course all scipts (simulation starting with `sim` and analysis and plotting with `dmd-analysis`) are also included. You can also find the defined data sets as numpy files (`sim_data.zip`).
 
-To use the scripts, set up a `.venv` environment in the root of the repository. The following depencies are necesseary to run the scripts and are installed into `.venv` when following the rest of this README:
-- numpy
-- scipy
-- matplotlib
-- pydmd
-- pytest
-- pyqt5 (to show the plots)
+To use the scripts, set up a `.venv` environment in the root of the repository. The necesseary depencies to run the scripts can be found in `pyproject.toml` and are installed into `.venv` when exectuing the following commands:
 
-* `python -m venv .venv`
-* `source .venv/bin/activate`
-* `pip install -e .`
+`python -m venv .venv`
+
+`source .venv/bin/activate`
+
+`pip install -e .`
 
 This README assumes you are running the scripts from within VSCode. If not, then you have to adapt the structure accordingly.
 
