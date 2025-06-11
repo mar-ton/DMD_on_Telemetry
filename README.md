@@ -2,6 +2,12 @@ This is the repository for my Bachelors Thesis "Time Series Analysis and Predict
 
 It contains not only the plots used in the thesis but all plots that were created and the raw results. Of course, all scripts are included as well (simulation-related starting with `sim` and analysis or plotting-related with `dmd-analysis`). You can also find the defined data sets as numpy files (`sim_data.zip`).
 
+The plots often times use LaTex formatting. The system wide dependencies for this are a working `tex` environment (e.g. via texlive) and `dvipng`. If you do not want to install those, change the sections in the code that use it (right after the imports) from:
+`plt.rcParams["text.usetex"] = True`
+to
+`plt.rcParams.update({"text.usetex": False, "mathtext.fontset": "cm"})`
+which uses Matplotlib's lightweight mathtext. But be aware, that it might not be nicely formatted or maybe even broken.
+
 To use the scripts, just execute the following commands in the root of the repository. This will set up a `.venv` environment and install the necessary dependencies (can be found in `pyproject.toml`) to run the scripts.
 
 `python -m venv .venv`
